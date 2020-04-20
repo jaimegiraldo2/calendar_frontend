@@ -6,7 +6,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
+    titleTemplate: 'VueJs Calendar',
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
@@ -49,7 +49,7 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,
