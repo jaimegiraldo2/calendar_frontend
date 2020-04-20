@@ -2,6 +2,8 @@
 
 > vuejs frontend calendar app
 
+if you want test this frontend you have to clone my repository calendar_api where I developed a backend using django and django rest framework
+
 ## Build Setup
 
 ```bash
